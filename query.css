@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --black: #0c0c0c;
+  --white: #ffffff;
+  --red-dark: #cf1b1b;
+  --red-light: #cf1b1b;
+  --grey: #1f1f1f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1200px) {
+  header nav {
+    position: absolute;
+    top: 70px;
+    background-color: var(--grey);
+    width: 100%;
+    display: none;
+  }
+  .menu-icon {
+    display: block !important;
+    color: var(--white);
+    font-size: 30px;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  header nav {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-body {
+    width: 100%;
+    padding: 20px;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .home-data-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-data {
+    min-height: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .dynamic-text {
+    font-size: 24px;
+    height: 80px;
+  }
+
+  .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons .button {
+    margin-bottom: 20px;
+  }
+  .facebook {
+    padding: 15px;
+  }
+  .instagram {
+    padding: 15px;
+  }
+  .gitHub {
+    padding: 15px;
+  }
+
+  .my-photo-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .my-photo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-me-section-content {
+    flex-direction: column;
+  }
+  .about-me-photo {
+    padding: 20px;
+  }
+  .about-me-photo-wrapper,
+  .about-me-paragraph {
+    width: 100%;
+    padding: 0;
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skills {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .skills i {
+    font-size: 60px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects-images {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact-section .container {
+    padding: 20px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-about,
+  .footer-contact,
+  .footer-social {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .footer-about h3,
+  .footer-contact h3,
+  .footer-social h3 {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}

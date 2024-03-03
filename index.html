@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <div class="logo">
+        <i id="icon" class="fa-regular fa-moon"></i>
+        <!--<i class="fa-regular fa-sun"></i>-->
+      </div>
+
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="#hero-section">Domů</a></li>
+          <li><a href="#about-me-section">O mě</a></li>
+          <li><a href="#skills-section">Dovednosti</a></li>
+          <li><a href="#project.section">Projekty</a></li>
+          <li><a href="#contact-section">Kontaktujte mě</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!--<i class="fa-solid fa-square-xmark"></i>-->
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <div class="hero-body">
+      <section class="hero-section" id="hero-section">
+        <div class="home-data-container">
+          <div class="home-data">
+            <h1>
+              Ahoj,<br />
+              jsem <span class="my-name">Lukáš</span>
+            </h1>
+            <p class="dynamic-text">Vítejte na mé stránce</p>
+          </div>
+          <div class="icons">
+            <a href="#contact-section" class="button">Kontaktujte mě</a>
+            <div class="facebook">
+              <a href="https://www.facebook.com/lukas.bartko.9" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div class="instagram">
+              <a
+                href="https://www.instagram.com/lukebartko?igsh=MWEyZWt6bWlwMXgzdA%3D%3D&utm_source=qr"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="gitHub">
+              <a href="https://github.com/Nathalius5" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- wrapper na mou fotku -->
+        <div class="my-photo-wrapper">
+          <img class="my-photo" src="images/my-photo.jpg" alt="My photo" />
+        </div>
+      </section>
+
+      <!-- About Me section -->
+      <section class="about-me-section" id="about-me-section">
+        <h2 class="about-me-section-title">O mě</h2>
+        <div class="about-me-section-content">
+          <div class="about-me-photo-wrapper">
+            <img
+              class="about-me-photo"
+              src="images/about me.jpg"
+              alt="My portrait"
+            />
+          </div>
+          <div class="about-me-paragraph">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+            tenetur laudantium quas aliquid deserunt fuga quam facilis,
+            doloribus perferendis pariatur. Consectetur, iste cupiditate
+            eligendi laborum nisi explicabo accusantium quas ea! Lorem ipsum
+            dolor sit, amet consectetur adipisicing elit. Iste tenetur
+            laudantium quas aliquid deserunt fuga quam facilis, doloribus
+            perferendis pariatur. Consectetur, iste cupiditate eligendi laborum
+            nisi explicabo accusantium quas ea! Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Iste tenetur laudantium quas aliquid
+            deserunt fuga quam facilis, doloribus perferendis pariatur.
+            Consectetur, iste cupiditate eligendi laborum nisi explicabo
+            accusantium quas ea! Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Iste tenetur laudantium quas aliquid deserunt fuga
+            quam facilis, doloribus perferendis pariatur. Consectetur, iste
+            cupiditate eligendi laborum nisi explicabo accusantium quas ea!
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section class="skills-section" id="skills-section">
+        <h2 class="skills-section-title">Dovednosti</h2>
+        <div class="skills-container">
+          <div class="skills">
+            <i class="fa-brands fa-js"></i>
+            <h3>Javascript</h3>
+            <div class="skills-bar-left"></div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <div class="skills-bar-left"></div>
+          </div>
+          <div class="skills">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+            <div class="skills-bar-right"></div>
+            <i class="fa-brands fa-python"></i>
+            <h3>Python</h3>
+            <div class="skills-bar-right"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section class="project-section" id="project.section">
+        <h2 class="project-section-title">Projekty</h2>
+        <div class="projects">
+          <div class="projects-images">
+            <img src="images/hogwarts.png" alt="Hogwarts" />
+          </div>
+          <div class="projects-images">
+            <img src="images/images.png" alt="Images" />
+          </div>
+          <div class="projects-images">
+            <img src="images/reviews.png" alt="Reviews" />
+          </div>
+          <div class="projects-images">
+            <img
+              src="images/your-travel-assistant.png"
+              alt="Travel assistant"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact-section">
+        <div class="container">
+          <h2>Kontaktujte mě</h2>
+          <form id="contactForm" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Jméno:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <span id="emailError" class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="confirmEmail">Potvrďte Email:</label>
+              <input
+                type="email"
+                id="confirmEmail"
+                name="confirmEmail"
+                required
+              />
+              <span id="confirmEmailError" class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Zpráva:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Odeslat</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- ikona, ktera se zobrazi po scrollovani dolu a funguje jako home button -->
+    <button id="scrollToTopBtn" class="scroll-top-btn" onclick="scrollToTop()">
+      <i class="fa-solid fa-circle-up"></i>
+    </button>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Můj projekt</h3>
+          <p>
+            Tato stránka byla vytvořena jako jeden z mých prvních projektů a má
+            do budoucna složit jako odkaz na moje portfolio
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h3>Kontakt:</h3>
+          <p>Email: luki.bartko@gmail.com</p>
+          <p>Phone: +420 777 582 706</p>
+        </div>
+        <div class="footer-social">
+          <h3>Sledujte mě</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/lukas.bartko.9" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/lukebartko?igsh=MWEyZWt6bWlwMXgzdA%3D%3D&utm_source=qr"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Nathalius5" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
